@@ -599,12 +599,15 @@ input {
   fill: #e7e9fc;
 }
 
-.modal-close-btn:hover {
+.modal-close-btn:hover,
+.modal-close-icon:hover {
   background-color: #404bbf;
+  fill: #fff;
 }
 
 .modal-close-icon {
   position: absolute;
+  fill: #2e2f42;
 }
 
 .modal-title {
@@ -647,8 +650,8 @@ input {
 }
 
 .modal-icon {
-  fill: transparent;
-  stroke: #2e2f42;
+  /* fill: transparent;
+  stroke: #2e2f42; */
   position: absolute;
   left: 16px;
   top: 50%;
