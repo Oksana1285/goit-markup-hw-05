@@ -463,6 +463,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-modal-field">
+          <p class="footer-modal-text">Subscribe</p>
+          <form class="footer-modal-form">
+            <label class="footer-modal-label">
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                class="footer-modal-input"
+                placeholder="E-mail"
+              />
+            </label>
+          </form>
+          <button class="footer-modal-buttom">
+            <p class="footer-modal-buttom-text">Subscribe</p>
+            <svg class="footer-modal-buttom-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <div class="modal-overlay" data-modal>
@@ -473,7 +493,7 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form>
+        <form class="modal-form">
           <div class="modal-field">
             <label class="modal-label" for="name">Name</label>
             <div class="modal-field-wrap">
@@ -524,7 +544,31 @@
             placeholder="Text input"
           ></textarea>
         </form>
-        <button type="submit">Send</button>
+        <div class="modal-checkbox-field">
+          <form class="modal-form-agree">
+            <label class="modal-checkbox-label">
+              <input
+                type="checkbox"
+                class="modal-checkbox-input"
+                name="agree"
+                checked
+              />
+            </label>
+            <span class="modal-checkbox-span">
+              <svg class="modal-checkbox-icon-border" width="16" height="16">
+                <use href="./images/icons.svg#icon-Checkbox"></use>
+              </svg>
+              <svg class="modal-checkbox-icon-agree" width="16" height="16">
+                <use href="./images/icons.svg#icon-Checkbox"></use>
+              </svg>
+            </span>
+            <p class="modal-checkbox-text">
+              I accept the terms and conditions of the
+            </p>
+            <a href="" class="modal-checkbox-link">Privacy Policy</a>
+          </form>
+        </div>
+        <button type="submit" class="modal-buttom-send">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
